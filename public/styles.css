@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Abyssinica+SIL&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: #F5F5F5;
+    text-align: center;
+    font-family: 'Abyssinica SIL', serif;
+}
+
+div.xyecommerce {
+    background: #fff;
+    padding: 25px;
+    border-bottom: #000;
+    width: 100%;
+}
+
+nav {
+    background: #fff;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+nav>ul>li {
+    display: inline-block;
+    font-size: 20px;
+    padding: 15px;
+}
+
+nav>ul>li>a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #000;
+}
+
+nav>ul>li>a.active {
+    text-decoration: underline;
+}
+
+nav>ul>li>a:hover {
+    text-decoration: underline;
+}
+
+/* content */
+div.shoes-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+    margin-bottom: 10px;
+}
+
+div.front {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1100px;
+    height: 60vh;
+    background: #fff;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+img.shoes {
+    width: 950px;
+    height: 350px;
+    border: 3px solid #000;
+}
+
+/* grid content */
+div.grid-container {
+    border: 1px solid red;
+}
+
+div.first-row {
+    border: 1px solid red;
+}
+
+img.luffy {
+    width: 100%;
+}
+
+/* media query */
+
+@media (max-width: 771px) {
+    img.shoes {
+        width: 500px;
+    }
+}
+
+@media (max-width: 700px) {
+    img.shoes {
+        width: 375px;
+    }
+}
+
+@media (max-width: 463px) {
+    img.shoes {
+        width: 250px;
+    }
+}

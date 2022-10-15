@@ -1,0 +1,16 @@
+{
+    "author": "xynoan",
+    "description": "Ecommerce Website",
+    "keywords": [
+        "Ecommerce",
+        "Furniture"
+    ],
+    "license": "MIT",
+    "version": "1.0.0",
+    "dependencies": {
+        "express": "^4.18.1"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.20"
+    }
+}
